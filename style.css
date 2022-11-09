@@ -22,34 +22,31 @@
   }
 
 .container{
-    width: 101vw;
-    height: 101vh;
+    width: 100vw;
+    height: 100vh;
+    
     background-color: black;
     background-position: center;
-    background-size: cover;
 }
 
 .numbers{
     color: white;
-    font-weight: bolder;
-    text-align: center;
-    padding: 85px 0;
+    width: 60%;
+    height: 78%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
 }
 
 .numbers div{
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;
+    text-align: center
 }
 
 .numbers div p{
     display: inline-block;
-    font-size: 60px;
-}
-
-.numbers div span{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    font-size: 90px;
 }
