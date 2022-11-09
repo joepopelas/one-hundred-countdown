@@ -2,10 +2,24 @@
 {
     margin: 0;
     padding: 0;
-    font-family: Montserrat, sans-serif;
+    font-family:'Montserrat', sans-serif;
     font-variant-numeric: tabular-nums ;
     box-sizing: border-box;
 }
+
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v25-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat-v25-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v25-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v25-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
 
 .container{
     width: 101vw;
@@ -20,7 +34,6 @@
     font-weight: bolder;
     text-align: center;
     padding: 85px 0;
-    margin-left: 25px
 }
 
 .numbers div{
@@ -35,5 +48,5 @@
 }
 
 .numbers div span{
-    margin-right: 20px;
+    margin-right: 50px;
 }
