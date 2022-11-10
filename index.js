@@ -23,4 +23,4 @@ var x = setInterval(function () {
     document.getElementById("seconds").innerHTML = "00";
     document.getElementById("milliseconds").innerHTML = "00";
   }
-}, 1);
+}, 13);
